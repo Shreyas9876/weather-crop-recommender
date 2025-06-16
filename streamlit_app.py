@@ -1,5 +1,6 @@
 import streamlit as st
 
-st.title("🌾 Weather-Based Crop Recommendation System")
+st.set_page_config(page_title="Crop Recommender", layout="centered")
 
-st.write("Welcome! This app recommends crops based on weather and soil conditions.")
+st.title("🌾 Weather-Based Crop Recommendation System")
+st.write("Welcome to the app! If you're seeing this, Streamlit is working.")
